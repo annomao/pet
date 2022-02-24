@@ -6,7 +6,7 @@
 }
 header{
   float: right;
-  margin: 15px;
+  margin: 10px;
   padding: 10px;
 }
 nav>a{
@@ -28,7 +28,7 @@ section{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 99%;
-  height: 500px;
+  height: 600px;
   animation-name: dog;
   animation-duration: 10s;
   animation-iteration-count: infinite;
@@ -44,7 +44,7 @@ section{
 .contact-container{
   display: grid;
   grid-template-columns: 49% 49%;
-  grid-template-rows: 500px;
+  grid-template-rows: 500px 500px;
 }
 h3{
   padding-top: 25px;
