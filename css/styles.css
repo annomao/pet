@@ -35,11 +35,11 @@ section{
   animation-direction: alternate;
 }
 @keyframes dog {
-  0% {background-image: url("/images/dog2.jpeg");}
-  25% {background-image: url("/images/dog3.jpeg");}
+  0% {background-image: url("/images/dog2.jpg");}
+  25% {background-image: url("/images/dog3.jpg");}
   50% {background-image: url("/images/dog4.jpg");}
-  75% {background-image: url("/images/dog5.jpeg");}
-  100% {background-image: url("/images/dog6.jpeg");}
+  75% {background-image: url("/images/dog5.jpg");}
+  100% {background-image: url("/images/dog6.jpg");}
 }
 .contact-container{
   display: grid;
