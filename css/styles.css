@@ -42,4 +42,14 @@ section{
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: 500px;
+  text-align: center;
+}
+.contact-item{
+
+}
+h3{
+  padding-top: 25px;
+  padding-bottom: 30px ;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
 }
