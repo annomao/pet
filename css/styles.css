@@ -53,6 +53,21 @@ h3{
   font-size: 30px;
   color: #8d8741;
 }
+h5{
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  color:#8d8741;
+}
+#about-title{
+  margin-left: 15px;
+}
+.about p{
+  margin-left: 30px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  opacity: 0.7;
+}
 .contact-details h3{
   margin-left: 15px;
 }
