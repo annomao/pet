@@ -56,11 +56,25 @@ h3{
 input, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
+  border: none;
+  border-bottom: 2px solid #8d8741;
+  border-radius: 6px;
 }
-
+input:hover, textarea:hover{
+  box-shadow: 5px 10px 15px #fbeec1;
+}
+button{
+  background-color: #8d8741;
+  color: #fff;
+  margin-top: 30px;
+  padding:10px 30px;
+  border: none;
+  border-radius: 4px;
+}
+button:hover{
+  box-shadow: 5px 10px 15px #fbeec1;
+  opacity: 0.7;
+}
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
