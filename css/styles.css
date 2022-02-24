@@ -1,0 +1,23 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.dog {
+  margin: 0 auto;
+  background-image: url("/images/dog1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 75%;
+  height: 500px;
+  animation-name: dog;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes dog {
+  0% {background-image: url("/images/dog2.jpeg");}
+  25% {background-image: url("/images/dog3.jpeg");}
+  50% {background-image: url("/images/dog4.jpg");}
+  75% {background-image: url("/images/dog5.jpeg");}
+  100% {background-image: url("/images/dog6.jpeg");}
+}
