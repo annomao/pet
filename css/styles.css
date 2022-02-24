@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
 }
 header{
   float: right;
@@ -44,14 +45,25 @@ section{
   grid-template-columns: 49% 49%;
   grid-template-rows: 500px;
 }
-.contact-item{
-
-}
 h3{
   padding-top: 25px;
   padding-bottom: 30px ;
   font-family: "Poppins", sans-serif;
   font-size: 30px;
+  color: #8d8741;
+}
+.contact-details h3{
+  margin-left: 15px;
+}
+.contact-details p{
+  margin-left: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 200;
+  color:#8d8741 ;
+}
+strong{
+  font-weight: 400;
 }
 input, textarea {
   width: 100%;
@@ -59,6 +71,7 @@ input, textarea {
   border: none;
   border-bottom: 2px solid #8d8741;
   border-radius: 6px;
+  opacity: 0.4;
 }
 input:hover, textarea:hover{
   box-shadow: 5px 10px 15px #6b6a68;
@@ -79,6 +92,8 @@ button:hover{
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
+  color: #8d8741;
+  opacity: 0.9;
 }
 
 .fa {
@@ -87,9 +102,10 @@ label {
   width: 50px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin-left:15px ;
   border-radius: 50%;
-  background: #8d8741;
+  background-color: #8d8741;
+  opacity: 0.4;
   color: #ffffff;
 }
 .fa:hover {
