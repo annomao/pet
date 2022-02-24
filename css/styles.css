@@ -38,3 +38,8 @@ section{
   75% {background-image: url("/images/dog5.jpeg");}
   100% {background-image: url("/images/dog6.jpeg");}
 }
+.contact-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 500px;
+}
