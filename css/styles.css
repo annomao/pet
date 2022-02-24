@@ -41,7 +41,7 @@ section{
 }
 .contact-container{
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   grid-template-rows: 500px;
 }
 .contact-item{
@@ -61,18 +61,19 @@ input, textarea {
   border-radius: 6px;
 }
 input:hover, textarea:hover{
-  box-shadow: 5px 10px 15px #fbeec1;
+  box-shadow: 5px 10px 15px #6b6a68;
 }
 button{
   background-color: #8d8741;
   color: #fff;
   margin-top: 30px;
+  margin-bottom: 30px;
   padding:10px 30px;
   border: none;
   border-radius: 4px;
 }
 button:hover{
-  box-shadow: 5px 10px 15px #fbeec1;
+  box-shadow: 5px 10px 15px #6b6a68;
   opacity: 0.7;
 }
 label {
