@@ -1,6 +1,7 @@
 *{
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 header{
   float: right;
@@ -42,7 +43,6 @@ section{
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: 500px;
-  text-align: center;
 }
 .contact-item{
 
@@ -53,10 +53,23 @@ h3{
   font-family: "Poppins", sans-serif;
   font-size: 30px;
 }
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
 .fa {
-  padding: 20px;
+  padding: 10px;
   font-size: 30px;
-  width: 30px;
+  width: 50px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
